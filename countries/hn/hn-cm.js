@@ -1,0 +1,23 @@
+[
+    { Hash: 'hn-cm-aj', Id: 302, Name: 'Ajuterique' },
+    { Hash: 'hn-cm-co', Id: 301, Name: 'Comayagua' },
+    { Hash: 'hn-cm-er', Id: 303, Name: 'El Rosario' },
+    { Hash: 'hn-cm-es', Id: 304, Name: 'Esquías' },
+    { Hash: 'hn-cm-hu', Id: 305, Name: 'Humuya' },
+    { Hash: 'hn-cm-lb', Id: 306, Name: 'La Libertad' },
+    { Hash: 'hn-cm-lt', Id: 308, Name: 'La Trinidad' },
+    { Hash: 'hn-cm-la', Id: 307, Name: 'Lamaní' },
+    { Hash: 'hn-cm-lj', Id: 320, Name: 'Las Lajas' },
+    { Hash: 'hn-cm-le', Id: 309, Name: 'Lejamaní' },
+    { Hash: 'hn-cm-me', Id: 310, Name: 'Meámbar' },
+    { Hash: 'hn-cm-mo', Id: 311, Name: 'Minas de Oro' },
+    { Hash: 'hn-cm-oa', Id: 312, Name: 'Ojos de Agua' },
+    { Hash: 'hn-cm-sj', Id: 313, Name: 'San Jerónimo' },
+    { Hash: 'hn-cm-sc', Id: 314, Name: 'San José de Comayagua' },
+    { Hash: 'hn-cm-sp', Id: 315, Name: 'San José del Potrero' },
+    { Hash: 'hn-cm-sl', Id: 316, Name: 'San Luis' },
+    { Hash: 'hn-cm-ss', Id: 317, Name: 'San Sebastián' },
+    { Hash: 'hn-cm-si', Id: 318, Name: 'Siguatepeque' },
+    { Hash: 'hn-cm-ta', Id: 321, Name: 'Taulabé' },
+    { Hash: 'hn-cm-vs', Id: 319, Name: 'Villa de San Antonio' }
+]
