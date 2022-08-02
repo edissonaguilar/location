@@ -2,6 +2,7 @@
     {
         "ISO2": "CO",
         "ISO3": "COL",
+        "Hash": "co",
         "Name": {
             "es": "Colombia"
         },
@@ -23,6 +24,7 @@
     {
         "ISO2": "HN",
         "ISO3": "HND",
+        "Hash": "hn",
         "Name": {
             "es": "Honduras"
         },
