@@ -1,0 +1,44 @@
+[
+    {
+        "ISO2": "CO",
+        "ISO3": "COL",
+        "Name": {
+            "es": "Colombia"
+        },
+        "Language": "es",
+        "Locale": "es-CO",
+        "PhoneCode": "+57",
+        "Currency": {
+            "Id": "COP",
+            "Name": {
+                "es": "Peso Colombiano"
+            },
+            "Symbol": "$",
+            "DecimalPlaces": 0
+        },
+        "Timezones": [
+            "America/Bogota"
+        ]
+    },
+    {
+        "ISO2": "HN",
+        "ISO3": "HND",
+        "Name": {
+            "es": "Honduras"
+        },
+        "Language": "es",
+        "Locale": "es-HN",
+        "PhoneCode": "+504",
+        "Currency": {
+            "Id": "HNL",
+            "Name": {
+                "es": "Lempira Hondureño"
+            },
+            "Symbol": "$",
+            "DecimalPlaces": 0
+        },
+        "Timezones": [
+            "America/Tegucigalpa"
+        ]
+    }
+]

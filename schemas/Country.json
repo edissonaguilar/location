@@ -1,0 +1,193 @@
+{
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "$id": "http://example.com/example.json",
+    "type": "object",
+    "default": {},
+    "title": "Root Schema",
+    "required": [
+        "ISO2",
+        "ISO3",
+        "Name",
+        "Language",
+        "Locale",
+        "PhoneCode",
+        "Currency",
+        "Timezones"
+    ],
+    "properties": {
+        "ISO2": {
+            "type": "string",
+            "default": "",
+            "title": "The ISO2 Schema",
+            "examples": [
+                "CO"
+            ]
+        },
+        "ISO3": {
+            "type": "string",
+            "default": "",
+            "title": "The ISO3 Schema",
+            "examples": [
+                "COL"
+            ]
+        },
+        "Name": {
+            "type": "object",
+            "default": {},
+            "title": "The Name Schema",
+            "required": [
+                "es"
+            ],
+            "properties": {
+                "es": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The es Schema",
+                    "examples": [
+                        "Colombia"
+                    ]
+                }
+            },
+            "examples": [
+                {
+                    "es": "Colombia"
+                }
+            ]
+        },
+        "Language": {
+            "type": "string",
+            "default": "",
+            "title": "The Language Schema",
+            "examples": [
+                "es"
+            ]
+        },
+        "Locale": {
+            "type": "string",
+            "default": "",
+            "title": "The Locale Schema",
+            "examples": [
+                "es-CO"
+            ]
+        },
+        "PhoneCode": {
+            "type": "string",
+            "default": "",
+            "title": "The PhoneCode Schema",
+            "examples": [
+                "+57"
+            ]
+        },
+        "Currency": {
+            "type": "object",
+            "default": {},
+            "title": "The Currency Schema",
+            "required": [
+                "Id",
+                "Name",
+                "Symbol",
+                "DecimalPlaces"
+            ],
+            "properties": {
+                "Id": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The Id Schema",
+                    "examples": [
+                        "COP"
+                    ]
+                },
+                "Name": {
+                    "type": "object",
+                    "default": {},
+                    "title": "The Name Schema",
+                    "required": [
+                        "es"
+                    ],
+                    "properties": {
+                        "es": {
+                            "type": "string",
+                            "default": "",
+                            "title": "The es Schema",
+                            "examples": [
+                                "Peso Colombiano"
+                            ]
+                        }
+                    },
+                    "examples": [
+                        {
+                            "es": "Peso Colombiano"
+                        }
+                    ]
+                },
+                "Symbol": {
+                    "type": "string",
+                    "default": "",
+                    "title": "The Symbol Schema",
+                    "examples": [
+                        "$"
+                    ]
+                },
+                "DecimalPlaces": {
+                    "type": "integer",
+                    "default": 0,
+                    "title": "The DecimalPlaces Schema",
+                    "examples": [
+                        0
+                    ]
+                }
+            },
+            "examples": [
+                {
+                    "Id": "COP",
+                    "Name": {
+                        "es": "Peso Colombiano"
+                    },
+                    "Symbol": "$",
+                    "DecimalPlaces": 0
+                }
+            ]
+        },
+        "Timezones": {
+            "type": "array",
+            "default": [],
+            "title": "The Timezones Schema",
+            "items": {
+                "type": "string",
+                "default": "",
+                "title": "A Schema",
+                "examples": [
+                    "America/Bogota"
+                ]
+            },
+            "examples": [
+                [
+                    "America/Bogota"
+                ]
+            ]
+        }
+    },
+    "examples": [
+        {
+            "ISO2": "CO",
+            "ISO3": "COL",
+            "Name": {
+                "es": "Colombia"
+            },
+            "Language": "es",
+            "Locale": "es-CO",
+            "PhoneCode": "+57",
+            "Currency": {
+                "Id": "COP",
+                "Name": {
+                    "es": "Peso Colombiano"
+                },
+                "Symbol": "$",
+                "DecimalPlaces": 0
+            },
+            "Timezones": [
+                "America/Bogota"
+            ]
+        }
+    ]
+}
